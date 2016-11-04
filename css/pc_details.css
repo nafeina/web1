@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-style: normal;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+#container{
+    width: 100%;
+}
+#pc_nav{
+    width: 100%;
+    border-top: 2px solid #eeeeee;
+    overflow: hidden;
+    border-bottom: 2px solid #eeeeee;
+}
+#pc_nav p{
+    font-size: 24px;
+    color: #333333;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#pc_nav p:nth-child(1){
+    margin-left: 55px;
+    color: #ff5600;
+}
+#pc_nav p:nth-child(n+2){
+    margin-left: 100px;
+}
+#pc_details{
+    width: 100%;
+    overflow: hidden;
+}
+#pc_details .top{
+    width: 100%;
+    overflow: hidden;
+}
+#pc_details .pc_logo{
+    float: left;
+    width: 213px;
+    height: 200px;
+}
+#pc_details .pc_logo img{
+    margin: 45px 0 0 20px;
+    width: 176px;
+    height: 110px;
+}
+#pc_details .pc_intro{
+    width: 410px;
+    height: 200px;
+    float: left;
+    border-bottom: #e1e1df 2px solid;
+}
+#pc_details .pc_intro p{
+    margin-top: 23px;
+    font-size: 24px;
+    color: #333333;
+    letter-spacing: 2px;
+
+}
+#pc_details .pc_intro .pc_i_price{
+    display: block;
+
+}
+#pc_details .pc_intro .pc_i_price span:nth-of-type(1){
+    font-size: 12px;
+    color: #FF5715;
+}
+#pc_details .pc_intro .pc_i_price span:nth-of-type(2){
+    font-size: 30px;
+    color: #FF5715;
+    font-weight: bold;
+}
+#pc_details .pc_intro a{
+    display: block;
+    color: #747474;
+    font-size: 18px;
+    margin-top: 18px;
+}

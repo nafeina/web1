@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-style: normal;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #eeeeee;
+}
+#container{
+    width: 100%;
+}
+#container .header{
+    width: 100%;
+    height: 685px;
+    background: #ffffff;
+    overflow: hidden;
+    position: relative;
+}
+#container .header .pro_round{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+#container .header .pro_logo{
+    margin-top: 40px;
+    width: 640px;
+    height: 480px;
+}
+#container .header P{
+    width: 530px;
+    margin-left: 20px;
+    font-size: 26px;
+    color: #000;
+    line-height: 35px;
+}
+#container .header .pro_price{
+    margin:40px 0 0 20px;
+
+}
+#container .choose{
+    width: 100%;
+    height: 75px;
+    margin-top: 10px;
+    background: #ffffff;
+    overflow: hidden;
+}
+#container .choose p{
+    color: #000000;
+    font-size: 24px;
+    margin:24px 0 0 22px;
+    float: left;
+}
+#container .choose img{
+    float: right;
+    margin: 28px 20px 0 0;
+}
+#container .lenovo{
+    width: 100%;
+    height: 235px;
+    background: #fff;
+    margin-top: 10px;
+}
+#container .lenovo .fir_l{
+    width: 100%;
+    overflow: hidden;
+}
+#container .lenovo .fir_l img{
+    float: left;
+    margin: 23px 0 0 20px;
+}
+#container .lenovo .fir_l div{
+    float: left;
+    margin-left: 10px;
+    margin-top: 26px;
+}
+#container .lenovo .fir_l div p:nth-child(1){
+    font-size: 28px;
+    color: #000;
+}
+#container .lenovo .fir_l div p:nth-child(2){
+    font-size: 12px;
+    color: #a1a1a1;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+#container .lenovo .sec_l{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 14px;
+}
+#container .lenovo .sec_l p{
+    width: 212px;
+    height: 53px;
+    float: left;
+    border-right: 1px solid #e1e1e0;
+    /*background: yellowgreen;*/
+}
+/*#container .lenovo .sec_l p img{*/
+    /*display: block;*/
+    /*margin-top: 5px;*/
+    /*margin-left:75px ;*/
+/*}*/
+#container .lenovo .sec_l p span{
+    display: block;
+    margin-left: 75px;
+}
+#container .lenovo .sec_l p span:nth-child(1){
+    font-size: 22px;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+#container .lenovo .sec_l p span:nth-child(2){
+    font-size: 12px;
+    color: #707070;
+    margin-top: 5px;
+    margin-left: 65px;
+}
+#container .lenovo .tir_l{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 12px;
+}
+#container .lenovo .tir_l p{
+    float: left;
+}
+#container .lenovo .tir_l p:nth-child(1){
+    margin-left: 18px;
+}
+#container .lenovo .tir_l p:nth-child(2){
+    margin-left: 20px;
+}
+#container .tab{
+    width: 100%;
+    margin-top: 15px;
+    overflow: hidden;
+}
+#container .tab .classify{
+    width: 100%;
+    /*height: 70px;*/
+    overflow: hidden;
+}
+#container .tab .classify li{
+    width: 160px;
+    height: 70px;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    line-height: 70px;
+    font-size: 22px;
+    color: #333333;
+}
+#container .tab .classify li:nth-child(1){
+    background: #ffffff;
+    color: #ff8f59;
+    border-bottom: 2px solid #ff8f59;
+}
+#container .tab .tab_img{
+    width: 100%;
+}
+#container .tab .tab_img1,.tab_img2,.tab_img3{
+    display: block;
+    margin: 12px 0 0 20px;
+}
+/*#container .tab .tab_img2,.tab_img3{*/
+    /*margin-left: 20px;*/
+/*}*/
+
+#container .foot{
+    width: 100%;
+    height: 83px;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+}
+#container .foot dl{
+    margin:15px 0 0 85px;
+    float: left;
+}
+#container .foot dl dd{
+    color: #333;
+    margin-left: -5px;
+}
+#container .foot dl:nth-of-type(2){
+    margin:15px 0 0 103px;
+    float: left;
+}
+#container .foot .foot_btn{
+    float: right;
+}

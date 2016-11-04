@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-style: normal;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #eeeeee;
+}
+.prompt{
+	width: 100%;
+}
+.prompt_header{
+	width: 100%;
+	height: 130px;
+	overflow: hidden;
+	background-color: #f8f8f8;
+}
+/*返回按钮*/
+.prompt_hea{
+	margin: 70px 0  0 20px;
+}
+/*内容*/
+.prompt_content{
+	width: 100%;
+	height: 970px;
+	text-align: center;
+	background-color: #eeeeee;
+}
+.prompt_content img{
+	width: 38.2%;
+	margin-top: 190px;
+}
+.prompt_con1{
+	font-size: 24px;
+	color:#b8b8b8;
+	margin-top: 75px;
+}
+.prompt_con2{
+	color: #999999;
+	font-size: 36px;
+	margin-top: 50px;
+	font-weight: bold;
+}
+#footer{
+    width: 100%;
+    /*height: 97px;*/
+    margin-top: 10px;
+    overflow: hidden;
+    background: #f8f8f8;
+    border-top: 1px solid #e1e2e3;
+    padding-bottom: 12px;
+    position: fixed;
+    bottom: 0;
+}
+#footer dl{
+    width: 25%;
+    height: 100px;
+    padding: 20px 0 0 63px;
+    box-sizing: border-box;
+    overflow: hidden;
+    float: left;
+}
+#footer dl dt{
+    margin-top: 6px;
+    font-size: 18px;
+    margin-left: -4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
